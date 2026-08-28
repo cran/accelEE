@@ -1,7 +1,7 @@
 Package: accelEE
 Type: Package
-Title: Predict Energy Expenditure from Accelerometer Data
-Version: 0.3.1
+Title: Predict Energy Expenditure from Accelerometry Data
+Version: 0.3.2
 Authors@R: c(
       person(c("Paul", "R."), "Hibbing", email = "paulhibbing@gmail.com", role = c("aut","cre")),
       person("Children's Mercy Kansas City", role = "cph")
@@ -23,12 +23,12 @@ Imports: digest, dplyr, lubridate, magrittr, nnet, PAutilities (>=
         tree, TwoRegression (>= 1.0.0), utils
 RoxygenNote: 7.3.3
 Depends: R (>= 2.10)
-Suggests: EE.Data, PhysActBedRest (>= 1.1), PhysicalActivity (>=
-        0.2.4), read.gt3x (>= 1.0.2)
+Suggests: EE.Data (>= 0.2.0), PhysActBedRest (>= 1.1), PhysicalActivity
+        (>= 0.2.4), read.gt3x (>= 1.0.2)
 NeedsCompilation: no
-Packaged: 2026-05-07 21:58:54 UTC; phibbing
+Packaged: 2026-08-28 16:10:49 UTC; phibbing
 Author: Paul R. Hibbing [aut, cre],
   Children's Mercy Kansas City [cph]
 Maintainer: Paul R. Hibbing <paulhibbing@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-05-12 19:20:37 UTC
+Date/Publication: 2026-08-28 21:40:08 UTC
